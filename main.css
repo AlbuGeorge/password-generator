@@ -34,6 +34,7 @@ body{
   -webkit-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
   -moz-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
   box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
+
 }
 
 .ps{
@@ -49,6 +50,11 @@ body{
   color: #292929;
 }
 
+.pw{
+  width: 350px;
+  overflow: hidden;
+  word-break: keep-all;
+}
 
 button{
   text-decoration: none;
@@ -129,3 +135,18 @@ button{
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .pass{
+    width: 400px;
+  }
+  
+  .pw{
+    width: 150px;
+  }
+  .pass-body-right{
+    margin-left: 30px;
+  }
+  .pass-body-right input{
+  width: 50%;
+  }
+}
