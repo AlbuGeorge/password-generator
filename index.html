@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer charset="utf-8"></script>
+    <title>Password Generator</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Password Generator</h1>
+      <div class="pass">
+        <div class="ps">
+          
+          <div class="pw" id="result"></div>
+          
+          <div class="buttons">
+            <button type="button" id="clipboard" name="clipboard">
+              <img src="images/copy.svg" alt="copy-icons">
+            </button>
+            <button type="button" id="generate" name="refresh">
+              <img src="images/refresh-ccw.svg" alt="refresh-icons">
+            </button>
+          </div>
+        </div>
+        <div class="pass-body-cont">
+          <div class="pass-left">
+            
+            <div class="from-control">
+              <label class= "checkbox" for="uppercase">
+                <input class="checkbox__input" type="checkbox" name="UppercaseName" id="uppercase">
+                <div class="checkbox__box"></div>
+                Uppercase
+              </label>
+            </div>
+            
+            <div class="from-control">
+              <label class= "checkbox" for="lowercase">
+                <input class="checkbox__input" type="checkbox" name="LowercaseName" id="lowercase">
+                <div class="checkbox__box"></div>
+                Lowercase
+              </label>
+            </div>
+            
+            <div class="from-control">
+              <label class= "checkbox" for="numbers">
+                <input class="checkbox__input" type="checkbox" name="numberName" id="numbers">
+                <div class="checkbox__box"></div>
+                Number
+              </label>
+            </div>
+            
+            <div class="from-control">
+              <label class= "checkbox" for="symbols">
+                <input class="checkbox__input" type="checkbox" name="SymbolsName" id="symbols">
+                <div class="checkbox__box"></div>
+                Symbols
+              </label>
+            </div>
+            
+          </div>
+          
+          <div class="pass-body-right">
+            
+            <label for="length">Password Length</label><br>
+            <input type="nunmber" id="length" min="4" max="16" value="12">
+          </div>
+        </div>
+      </div>    
+    </body>
+    </html>
+    

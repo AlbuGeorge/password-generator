@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #14213d;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 25px 0px;
+}
+
+.pass{
+  width: 600px;
+  background-color: #e5e5e5;
+  margin: 0 auto;
+  padding: 15px 25px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
+  -moz-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
+  box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
+}
+
+.ps{
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 10px;
+  color: #292929;
+}
+
+
+button{
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.pass-body-cont{
+  display: flex;
+  padding: 15px 25px;
+  justify-content: space-between;
+}
+
+.form-control{
+  display: flex;
+  /* margin: 21rem; */
+  margin-top: 10px;
+
+}
+
+
+.checkbox{
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.checkbox__input{
+  display: none;
+}
+
+.checkbox__box{
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.checkbox__box::after{
+  content: '\2714';
+  color: #e5e5e5;
+  transform: scale(0);
+  transition: transfrom 0.15s;
+}
+
+.checkbox__input:checked +.checkbox__box{
+  background: #fca311;
+  border-color: #fca311;
+}
+
+.checkbox__input:checked +.checkbox__box::after{
+  transform: scale(1);
+}
+
+.pass-body-right{
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.pass-body-right input{
+  font-size:1rem;
+  font-family: 'Poppins';
+  margin-top: 15px;
+  width: 35%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+}
+
