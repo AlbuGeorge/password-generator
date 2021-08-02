@@ -34,7 +34,6 @@ body{
   -webkit-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
   -moz-box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
   box-shadow: 0px 2px 8px rgba(128,128,128,0.8);
-
 }
 
 .ps{
@@ -72,11 +71,8 @@ button{
 
 .form-control{
   display: flex;
-  /* margin: 21rem; */
   margin-top: 10px;
-
 }
-
 
 .checkbox{
   display: inline-flex;
@@ -143,11 +139,9 @@ button{
   .pass{
     width: 400px;
   }
-  .ps{
-    font-size: 1.5rem;
-  }
   .pw{
     width: 150px;
+    font-size: 1.5rem;
   }
   .pass-body-right{
     margin-left: 30px;
