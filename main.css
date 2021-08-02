@@ -136,10 +136,16 @@ button{
 }
 
 @media only screen and (max-width: 768px) {
+  
+  .title{
+    font-size:1.5rem;
+  }
   .pass{
     width: 400px;
   }
-  
+  .ps{
+    font-size: 1.5rem;
+  }
   .pw{
     width: 150px;
   }
